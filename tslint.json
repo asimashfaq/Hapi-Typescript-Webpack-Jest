@@ -1,0 +1,23 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+    "ignoreDefinitionFiles": false,
+    "autoFixOnSave": true,
+    "exclude": "**/node_modules/**/*",
+    "rules": {
+      "align": [
+        false,
+        "parameters"
+      ],
+      "max-line-length": false,
+      "strict-boolean-expressions": false,
+      "no-console":false,
+      "object-literal-sort-keys": false,
+      "trailing-comma": [ 
+        true,
+        {
+          "multiline": "never",
+          "singleline": "never"
+        }
+      ]
+    }
+  }

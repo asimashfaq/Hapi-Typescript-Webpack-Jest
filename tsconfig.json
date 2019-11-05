@@ -1,0 +1,67 @@
+{
+    "compilerOptions": {
+      "baseUrl": "src",
+      "outDir": "dist",
+      "target": "es6",
+      "module": "commonjs",
+      "strictNullChecks": true,
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "paths": {
+        "@config": [
+          "config"
+        ],
+        "@config/*": [
+          "config/*"
+        ],
+        "@lib": [
+          "lib"
+        ],
+        "@lib/*": [
+          "lib/*"
+        ],
+        "@handler": [
+          "handler"
+        ],
+        "@handler/*": [
+          "handler/*"
+        ],
+        "@model": [
+          "model"
+        ],
+        "@model/*": [
+          "model/*"
+        ],
+        "@route": [
+          "route"
+        ],
+        "@route/*": [
+          "route/*"
+        ],
+        "@hook": [
+          "hook"
+        ],
+        "@hook/*": [
+          "hook/*"
+        ],
+        "@repository": [
+          "repository"
+        ],
+        "@repository/*": [
+          "repository/*"
+        ],
+        "@service": [
+          "service"
+        ],
+        "@service/*": [
+          "service/*"
+        ],
+    }
+    },
+    "exclude": [
+      "node_modules"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ]
+}
