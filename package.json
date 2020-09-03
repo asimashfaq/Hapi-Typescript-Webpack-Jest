@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "18.4.0",
+    "@hapi/hapi": "19.1.1",
     "@hapi/vision": "5.5.4",
     "@types/bunyan": "^1.8.6",
     "@types/hapi-auth-jwt2": "8.6.1",
