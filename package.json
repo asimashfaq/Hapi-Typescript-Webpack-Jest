@@ -26,7 +26,7 @@
     "boom": "^7.3.0",
     "bunyan": "^1.8.12",
     "bunyan-debug-stream": "^2.0.0",
-    "convict": "4.4.1",
+    "convict": "6.2.2",
     "deepmerge": "^4.1.1",
     "hapi": "18.1.0",
     "hapi-auth-jwt2": "8.8.0",
